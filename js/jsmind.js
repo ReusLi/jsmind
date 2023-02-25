@@ -1079,7 +1079,7 @@
             this.view.add_event(this, 'mousedown', this.mousedown_handle);
             this.view.add_event(this, 'click', this.click_handle);
             this.view.add_event(this, 'dblclick', this.dblclick_handle);
-            // this.view.add_event(this, "mousewheel", this.mousewheel_handle)
+            this.view.add_event(this, "mousewheel", this.mousewheel_handle)
         },
 
         mousedown_handle: function (e) {
